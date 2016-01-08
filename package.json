@@ -1,0 +1,21 @@
+{
+  "name": "atecomic",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "https://github.com/legnaleurc/atecomic",
+  "devDependencies": {
+    "webpack": "",
+    "babel-loader": "^6.0.0",
+    "babel-core": "^6.0.0",
+    "babel-plugin-transform-es2015-modules-commonjs": ""
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "babel": {
+    "plugins": [
+      "transform-es2015-modules-commonjs"
+    ],
+    "sourceMaps": true
+  }
+}

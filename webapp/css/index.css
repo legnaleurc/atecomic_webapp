@@ -1,0 +1,92 @@
+body {
+  margin: 0px;
+  -moz-user-select: none;
+}
+
+#nav-bar {
+  /* if visible, always on top */
+  z-index: 1;
+
+  width: 100%;
+  height: 10vh;
+
+  position: fixed;
+  top: 0px;
+
+  background-color: black;
+  color: white;
+
+  display: flex;
+  flex-flow: space-between;
+}
+
+#content {
+  width: 100%;
+
+  /* the height of #nav-bar */
+  margin-top: 10vh;
+}
+
+#latest-update {
+  display: none;
+}
+
+#latest-update.active {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.comic-entry {
+  width: 33.33vw;
+  height: 28vh;
+
+  position: relative;
+
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.comic-entry > .title {
+  width: 100%;
+
+  position: absolute;
+  bottom: 0px;
+
+  opacity: 0.8;
+  background-color: black;
+  color: white;
+}
+
+#comic-info {
+  display: none;
+}
+
+#comic-info.active {
+  display: block;
+}
+
+#comic-info ul {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding-left: 0px;
+}
+
+#comic-info ul > li {
+  width: 20vw;
+  list-style-type: none;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+#comic-info ul > li.latest {
+  color: red;
+}
+
+#episode {
+  display: none;
+}
+
+#episode.active {
+  display: block;
+}
