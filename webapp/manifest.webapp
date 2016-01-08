@@ -1,7 +1,7 @@
 {
   "version": "0.1.0",
-  "name": "8comic",
-  "description": "A template with the bare minimum structure",
+  "name": "AteComic",
+  "description": "Comic Viewer",
   "launch_path": "/html/index.html",
   "icons": {
     "16": "/img/icons/icon16x16.png",
@@ -10,8 +10,8 @@
     "128": "/img/icons/icon128x128.png"
   },
   "developer": {
-    "name": "Your name",
-    "url": "http://example.com"
+    "name": "Wei-Cheng Pan",
+    "url": "https://github.com/legnaleurc/acecomic"
   },
   "type": "privileged",
   "permissions": {
