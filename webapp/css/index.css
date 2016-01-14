@@ -90,3 +90,7 @@ body {
 #episode.active {
   display: block;
 }
+
+#episode > img {
+  width: 100%;
+}
